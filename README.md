@@ -1,5 +1,4 @@
 # Reinforcement Learning Warehouse Environment
-**CS687 Final Report**  
 *Authors: Md Masudul Islam, Zekai Zhang · December 2024*
 
 This project explores three RL algorithms (One-Step Actor-Critic, REINFORCE with Baseline, and Semi-Gradient n-Step SARSA) in a simulated warehouse environment.
