@@ -1,8 +1,10 @@
 # Reinforcement Learning Warehouse Environment
+# Warehouse Environment Reinforcement Learning
+**CS687 Final Report**  
 *Authors: Md Masudul Islam, Zekai Zhang · December 2024*
 
-This project explores three RL algorithms (One-Step Actor-Critic, REINFORCE with Baseline, and Semi-Gradient n-Step SARSA) in a simulated warehouse environment.
-
+## Overview
+This project explores Reinforcement Learning (RL) methods for optimizing warehouse operations. We focus on:
 - **One-Step Actor-Critic**
 - **REINFORCE with Baseline**
 - **Episodic Semi-Gradient n-Step SARSA**
@@ -43,4 +45,3 @@ RL algorithms can learn robust strategies by interacting with the environment, o
 - **REINFORCE with Baseline** excels in smaller grids, reaching 98–100 reward with careful hyperparameter tuning.  
 - **n-Step SARSA** scales effectively but is more sensitive to initialization and hyperparameters.
 
-## Repository Structure
