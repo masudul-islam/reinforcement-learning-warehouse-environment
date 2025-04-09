@@ -1,6 +1,5 @@
 # Reinforcement Learning Warehouse Environment
 **University of Massachusetts Amherst**  
-***COMPSCI 687 Reinforcement Learning***  
 *Authors: Md Masudul Islam, Zekai Zhang · December 2024*
 
 ## Overview
