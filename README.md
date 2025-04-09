@@ -12,8 +12,8 @@ These algorithms are applied to a **simulated warehouse environment** featuring 
 
 ## Motivation
 Warehouse management demands efficient, adaptive policies to handle:
-- Unpredictable demand
-- Complex workflows
+- Unpredictable demand  
+- Complex workflows  
 - Multiple constraints (obstacles, limited resources)
 
 RL algorithms can learn robust strategies by interacting with the environment, outperforming manual or rule-based methods in dynamic settings.
@@ -21,9 +21,9 @@ RL algorithms can learn robust strategies by interacting with the environment, o
 ## Environment Description
 - **States**: Agent’s (x, y) position on a grid plus special shelf/terminal cells  
 - **Actions**: Up, Down, Left, Right (with probabilistic drift)  
-- **Rewards**:
-  - +100 for reaching a terminal state
-  - -9 for traversing a shelf
+- **Rewards**:  
+  - +100 for reaching a terminal state  
+  - -9 for traversing a shelf  
   - -1 for regular grid cells  
 - **Transition**: 70% to intended action, 12% each side, 6% no movement
 
@@ -44,3 +44,13 @@ RL algorithms can learn robust strategies by interacting with the environment, o
 - **REINFORCE with Baseline** excels in smaller grids, reaching 98–100 reward with careful hyperparameter tuning.  
 - **n-Step SARSA** scales effectively but is more sensitive to initialization and hyperparameters.
 
+## Contributions
+- **Md Masudul Islam**  
+  - Implemented and tuned **One-Step Actor-Critic** and **REINFORCE with Baseline** in TensorFlow/Keras  
+  - Designed experiments for hyperparameter tuning (learning rates, discount factors, max steps)  
+  - Conducted environment setup with negative shelf-penalties and partial action stochasticity
+
+- **Zekai Zhang**  
+  - Developed the **Episodic Semi-Gradient n-Step SARSA** algorithm and neural network Q-approximator  
+  - Explored transfer learning strategies for larger warehouse layouts  
+  - Assisted with policy visualization (heatmaps) and final analysis
